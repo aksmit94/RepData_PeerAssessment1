@@ -29,7 +29,7 @@ The dataset is stored in a comma-separated-value (CSV) file and there are a tota
 
 Assuming the data file exists in the current working directory.
 
-```{r load_process, cache=TRUE}
+```{r load_process}
 activity <- read.csv("activity.csv")
 
 #Converting the "date" column to type = date using the 'Lubridate' package
